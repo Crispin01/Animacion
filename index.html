@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+
+    <div class="single-item">
+        <div><img src="uno.jpg" alt="" width="600"></div>
+        <div><img src="2.jpg" alt="" width="600"></div>
+        <div><img src="3.jpg" alt="" width="600"></div>
+        <div><img src="https://images.alphacoders.com/943/thumb-1920-943148.jpg" alt="" width="600"> </div>
+        <div><img src="https://fondosmil.com/fondo/29369.jpg" alt="" width="600"></div>
+        <div><img src="http://www.fonditos3d.com/1920x1080/guerra-en-el-espacio.jpg" alt="" width="600"></div>
+      </div>
+      
+      <div class="multiple-item">
+        <div><img src="uno.jpg" alt="" width="600"></div>
+        <div><img src="2.jpg" alt="" width="600"></div>
+        <div><img src="3.jpg" alt="" width="600"></div>
+        <div><img src="https://images.alphacoders.com/943/thumb-1920-943148.jpg" alt="" width="600"> </div>
+        <div><img src="https://fondosmil.com/fondo/29369.jpg" alt="" width="600"></div>
+        <div><img src="http://www.fonditos3d.com/1920x1080/guerra-en-el-espacio.jpg" alt="" width="600"></div>
+      </div>
+
+   
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.single-item').slick({
+            autoplay: true,
+            autoplaySpeed: 1000,
+            fade: true,
+            speed: 3000 
+        });
+        $('.multiple-item').slick({
+            infinite: false,
+            slidesToShow:2,
+            slidesToScroll:1,
+            autoplay: true
+
+        })
+    </script>
+
+</body>
+</html>
